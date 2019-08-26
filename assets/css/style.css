@@ -1,0 +1,114 @@
+/* nav */
+
+.bg-success{
+    opacity: 0.85;
+    font-family: 'Overlock SC', cursive;
+    font-family: 'Galdeano', sans-serif;  
+    font-size: 1.2rem;
+}
+
+header {
+    position: sticky;
+}
+
+.nav-item {
+    display: inline-block;
+    position: relative;
+    padding: 0.2em 0;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.nav-link {
+    position: relative;
+}
+
+.nav-item:before {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    height: 1px;
+    width: 0;
+    background-color: black;
+    opacity: 0.1;
+    transition: .3s;
+    border-radius: 3px;
+}
+.nav-item:before {
+    left: 7px;
+}
+.nav-item:hover:before {
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%
+}
+
+button:focus {
+    outline: 0;
+}
+
+ul {
+    text-align: center;
+}
+
+/* main */
+h1 {
+    font-family: 'Overlock SC', cursive;
+    font-family: 'Galdeano', sans-serif; 
+}
+
+p {
+    letter-spacing: .19em;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5rem;
+    border : solid 2px #28a745;
+}
+
+.sns {
+    display: inline-block;
+    position: relative;
+    text-decoration: none !important;
+    font-weight: normal;
+    color: purple;
+}
+.sns:before {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    height: 1px;
+    width: 0;
+    background-color: black;
+    transition: .3s;
+    border-radius: 3px;
+}
+.sns:before {
+    left: 7px;
+}
+.sns:hover:before {
+    bottom: 0px;
+    left: 0px;
+    height: 1px;
+    width: 100%
+}
+
+/* footer */
+footer {
+    height: 40px;
+    background-color: black;
+    opacity: 0.8;
+}
+
+footer div {
+    text-align: center;
+    padding-top: 5px;
+}
+
+footer span {
+    font-size: 20px;
+    font-family: 'Overlock SC', cursive;
+    font-family: 'Galdeano', sans-serif; 
+    color: darkgrey;
+}
