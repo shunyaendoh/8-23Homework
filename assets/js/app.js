@@ -39,8 +39,8 @@ $(() => {
             {
                 label: '',
                 data: [20, 15,20,5],
-                backgroundColor: ['#669911', '#28a745', '#669911', '#28a745' ],
-                hoverBackgroundColor: ["#28a745", "#669911", '#28a745', '#669911']
+                backgroundColor: ['#ffc107', '#ffc107', '#ffc107', '#ffc107' ],
+                hoverBackgroundColor: ['#fd7e14', '#fd7e14', '#fd7e14', '#fd7e14']
             }]
     };
 
