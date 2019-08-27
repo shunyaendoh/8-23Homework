@@ -6,6 +6,7 @@ header {
     font-family: 'Overlock SC', cursive;
     font-family: 'Galdeano', sans-serif;  
     font-size: 1.2rem;
+    opacity: 0.8;
 }
 
 .nav-item {
