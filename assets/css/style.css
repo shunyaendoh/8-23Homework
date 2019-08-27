@@ -1,14 +1,11 @@
 /* nav */
 
-.bg-success{
+header {
+    position: sticky;
     opacity: 0.85;
     font-family: 'Overlock SC', cursive;
     font-family: 'Galdeano', sans-serif;  
     font-size: 1.2rem;
-}
-
-header {
-    position: sticky;
 }
 
 .nav-item {
