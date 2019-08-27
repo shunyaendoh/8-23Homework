@@ -30,6 +30,7 @@ $(() => {
 
     var Data = {
         labels: [
+            'Japanese',
             'HTML',
             'CSS',
             'Javascript',
@@ -38,9 +39,9 @@ $(() => {
         datasets: [
             {
                 label: '',
-                data: [20, 15,20,5],
-                backgroundColor: ['#ffc107', '#ffc107', '#ffc107', '#ffc107' ],
-                hoverBackgroundColor: ['#fd7e14', '#fd7e14', '#fd7e14', '#fd7e14']
+                data: [100,20, 15,20,5],
+                backgroundColor: ['#ffc107', '#ffc107', '#ffc107', '#ffc107', '#ffc107' ],
+                hoverBackgroundColor: ['#fd7e14', '#fd7e14', '#fd7e14', '#fd7e14', '#fd7e14']
             }]
     };
 
