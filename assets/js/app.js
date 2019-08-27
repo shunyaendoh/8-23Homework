@@ -26,4 +26,48 @@ $(() => {
         i++;
     })
 
+    var ctx = $("#myBarChart").get(0).getContext('2d');
+
+    var Data = {
+        labels: [
+            'HTML',
+            'CSS',
+            'Javascript',
+            'PHP'
+        ],
+        datasets: [
+            {
+                label: '',
+                data: [20, 15,20,5],
+                backgroundColor: ['#669911', '#28a745', '#669911', '#28a745' ],
+                hoverBackgroundColor: ["#28a745", "#669911", '#28a745', '#669911']
+            }]
+    };
+
+    var myBarChart = new Chart(ctx, {
+        type: 'horizontalBar',
+        data: Data,
+        options: {
+            scales: {
+                xAxes: [{
+                    stacked: true
+                }],
+                yAxes: [{
+                    stacked: true
+                }]
+                
+            },
+            elements: {
+                rectangle: {
+                    borderWidth: 2,
+                }
+            },
+            responsive: true,
+            title: {
+                display: true,
+                text: 'Skills about programing and markup.'
+            }
+        }
+    });
 })
+
