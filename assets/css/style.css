@@ -1,3 +1,8 @@
+.wrapper{
+    min-height: 100vh;
+    position: relative;
+}
+
 /* nav */
 
 header {
@@ -138,6 +143,10 @@ footer {
     height: 40px;
     background-color: black;
     opacity: 0.8;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
 }
 
 footer div {
