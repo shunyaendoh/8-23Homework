@@ -65,7 +65,7 @@ $(() => {
             responsive: true,
             title: {
                 display: true,
-                text: 'Skills about programing and markup.'
+                text: 'Skills about programing and markup language.'
             }
         }
     });
